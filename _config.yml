@@ -14,30 +14,10 @@ siteVerification: "TODO: какой-то ключ гугла"
 twitterAccount: "TODO:"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
-
-
-#authors: "TODO: Авторы"
-#description: "TODO:"
-#metaKeywords: "TODO:"
+heroImage: "hero.jpg"
 
 
 
-#title: "TODO: Имя сайта"
-
-
-#heroImage: "hero.jpg"
-#navigationLinks:
-# - {permalink: "/", text: "Главная"}
-# - {permalink: "/speakers/", text: "Спикеры"}
-# - {permalink: "/schedule/", text: "Программа"}
-# - {permalink: "/logistics/", text: "Место"}
-# - {permalink: "/partners/", text: "Партнеры"}
-#heroTitle: "TODO: название события"
-#eventDate: "12 октября, 2019"
-#typeoutFallback: "Воронеж"
-#heroButtons:
-# - {permalink: "/#tickets", text: "Купить билет"}
-# - {link: "http://bit.ly/dfua-c4p", text: "Стать спикером"}
 #email: "devfest@gdg.org.ua"
 #permalink: "/blog/:title"
 #googleAnalyticsTrackingId: "UA-43643469-5"
@@ -63,11 +43,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #
 ## Navigation
 
-#bottomNavigationLinks:
-# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-#rightNavigationButtons:
-# - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
-#
+
 ## Hero Block
 
 

@@ -177,3 +177,18 @@ nav {
     bottom: 26px;
     margin-top: 75px !important;
 }
+
+.flag::after {
+    content: "MMM";
+    display: inline;
+    margin-left: 4px;
+    color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.flag_en::after {
+    background-image: url($image-dir + "/flags/en.png");
+}
+.flag_ru::after {
+    background-image: url($image-dir + "/flags/ru.png");
+}

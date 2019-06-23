@@ -7,7 +7,7 @@
 		<div class="logo logo-footer logo-gray pull-right"></div>
 	</div>
 	<div class="row">
-		{% for block in site.footerBlocks %}
+		{% for block in site.data.en.footer.blocks %}
         {% assign colWidth = 12 | divided_by: forloop.length %}
 		<div class="col-md-{{ colWidth }} col-xs-6">
 			<h5>{{ block.title }}</h5>
@@ -22,7 +22,7 @@
 	<div class="row">
 		<div class="col-md-6 col-xs-12">
 			<ul class="social-links">
-				{% for social in site.socialLinks %}
+				{% for social in site.data.en.footer.socialLinks %}
 				<li>
 					<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}" target="_blank">
 						<svg class="icon icon-{{ social.icon }}" viewBox="0 0 30 32">
@@ -40,8 +40,9 @@
 			<p class="copyright">
 				&copy; 2019 основан на шаблоне <a href="https://github.com/gdg-x/zeppelin" target="_blank">Project Zeppelin</a><br>
 				Создан и спроектирован
-				<a href="{{ site.authorLink1 }}" target="_blank">{{ site.authorName1 }}</a>
-				<a href="{{ site.authorLink2 }}" target="_blank">{{ site.authorName2 }}</a>
+				{% for author in site.data.en.footer.authors %}
+				<a href="{{ author.link }}" target="_blank">{{ author.name }}</a>
+				{% endfor %}
 			</p>
 		</div>
 	</div>

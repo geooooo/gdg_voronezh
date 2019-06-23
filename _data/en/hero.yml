@@ -1,0 +1,6 @@
+title: "TODO: Event name"
+eventDate: "12 Oktober, 2019"
+typeoutFallback: "Voronezh"
+buttons:
+ - {permalink: "/#tickets", text: "Купить билет"}
+ - {link: "http://bit.ly/dfua-c4p", text: "Стать спикером"}
