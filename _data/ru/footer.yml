@@ -1,0 +1,18 @@
+# TODO: другие пункты ?
+blocks:
+ -
+  title: "Ссылки"
+  links:
+   - {link: "https://developers.google.com", text: "Google Developers"}
+ -
+  title: "Контакты"
+  links:
+   - {link: "mailto:gdg.voronezh@gmail.com", text: "gdg.voronezh@gmail.com"}
+socialLinks:
+  - {link: "https://twitter.com", icon: "twitter"}
+  - {link: "https://facebook.com", icon: "facebook"}
+# TODO: links and telegram, vk
+# TODO: вписать остальных авторов и ссылки
+authors:
+  - {name: "Юрий Корниенко", link: "#"}
+  - {name: "Вася Пупкин", link: "#"}
