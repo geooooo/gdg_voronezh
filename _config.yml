@@ -15,6 +15,7 @@ twitterAccount: "TODO:"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 heroImage: "hero.jpg"
+statisticBlockImage: "statistic.jpg"
 
 
 
@@ -53,13 +54,8 @@ heroImage: "hero.jpg"
 ## About Block
 #
 ## Statistic Block
-#statisticBlockImage: "statistic.jpg"
-#statisticBlock:
-# - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
-# - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
-# - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
-# - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 #
+
 ## Latest News Block
 #latestNewsTitle: "Latest news"
 #

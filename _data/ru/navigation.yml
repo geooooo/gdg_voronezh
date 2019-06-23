@@ -1,9 +1,9 @@
 links:
- - {permalink: "/", text: "Главная"}
- - {permalink: "/speakers/", text: "Спикеры"}
- - {permalink: "/schedule/", text: "Программа"}
- - {permalink: "/logistics/", text: "Место"}
- - {permalink: "/partners/", text: "Партнеры"}
+ - {permalink: "/ru#", text: "Главная"}
+ - {permalink: "/ru#", text: "Спикеры"}
+ - {permalink: "/ru#", text: "Программа"}
+ - {permalink: "/ru#", text: "Место"}
+ - {permalink: "/ru#", text: "Партнеры"}
 bottomLinks:
  - {link: "http://bit.ly/dfua-c4p", text: "Стать спикером"}
 rightButtons:
