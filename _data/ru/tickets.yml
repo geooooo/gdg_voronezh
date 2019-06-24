@@ -1,0 +1,36 @@
+title: "Билеты"
+info: "* Тариф для студентов, при регистрации необходим студенческий билет"
+offers:
+ -
+  name: "Специальный"
+  price: "350*"
+  priceCurrency: "₽"
+  buyButtonLink: "#"
+  buyButtonText: "Купить"
+  validFrom: ""
+  validThrough: "до 5.08"
+ -
+  name: "Early Bird"
+  price: "500"
+  priceCurrency: "₽"
+  buyButtonLink: "#"
+  buyButtonText: "Купить"
+  validFrom: "c 5.08"
+  validThrough: "по 31.08"
+  featured: true
+ -
+  name: "Standart"
+  price: "600"
+  priceCurrency: "₽"
+  buyButtonLink: "#"
+  buyButtonText: "Купить"
+  validFrom: "с 01.09"
+  validThrough: "по 31.09"
+ -
+  name: "Last chance"
+  price: "750"
+  priceCurrency: "₽"
+  buyButtonLink: "#"
+  buyButtonText: "Купить"
+  validFrom: "с 31.09"
+  validThrough: "по 10.10"

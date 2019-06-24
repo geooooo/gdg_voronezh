@@ -18,7 +18,7 @@ $button-background-color-hover: #4d4d4d;
     }
     &:last-child {
         border-right: 1px $col-border-color solid;
-        border-left: none;
+        //border-left: none;
         @media (max-width: 767px) {
             border: 1px $col-border-color solid;    
         }
@@ -131,5 +131,12 @@ $button-background-color-hover: #4d4d4d;
         &:last-child {
             border-bottom: none;
         }
+    }
+}
+
+
+.pricing-header {
+    .title {
+        line-height: 1.1;
     }
 }
