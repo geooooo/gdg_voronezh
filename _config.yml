@@ -9,9 +9,10 @@ markdown: kramdown
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 sass:
   sass_dir: _sass
+url: "https://geooooo.github.io"
 
 ## Site Settings
-baseurl: ""
+baseurl: "/gdg_voronezh"
 url: "TODO:"
 siteVerification: "TODO: какой-то ключ гугла"
 twitterAccount: "TODO:"
