@@ -1,0 +1,67 @@
+<!-- Begin Partners Section -->
+<section id="partners" class="partners">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1" style="overflow-x: auto">
+
+            <h3>{{ site.data.en.partners.forPartners }}</h3>
+            <h5>{{ site.data.en.partners.forPartnersDescription }}</h5>
+            <br>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        {% for col in site.data.en.partners.tableHeader %}
+                        <th>{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in site.data.en.partners.tableBody %}
+                    <tr>
+                        {% for col in row %}
+                        <td>
+                            {% if col == "+" %}
+                                <i class="material-icons plus">done</i>
+                            {% elsif col == "-" %}
+                                <i class="material-icons minus">clear</i>
+                            {% else  %}
+                                {{ col  }}
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        {% for col in site.data.en.partners.tableFooter %}
+                        <td>
+                            {% if col != "" %}
+                            <a class="btn btn-success" href="{{ col.link }}">{{ col.text }}</a>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                </tfoot>
+
+            </table>
+
+            <h3 style="margin-top: 50px">{{ site.data.en.partners.titlePartners }}</h3>
+            <h5>{{ site.data.en.partners.titlePartnersDescription }}</h5>
+            <br>
+
+            <ul class="list-inline">
+                {% for element in site.data.en.partners.partnersBlock %}
+                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                    <a href="{{ element.link }}" target="_blank">
+                        <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div> 
+</section>
+<!-- End Partners Section -->
+

@@ -15,6 +15,9 @@
 				{% for linkElement in block.links %}
 				<li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li>
 				{% endfor %}
+				{% for data in block.data %}
+				<li>{{ data }}</li>
+				{% endfor %}
 			</ul>
 		</div>
 		{% endfor %}

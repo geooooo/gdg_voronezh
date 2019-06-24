@@ -8,6 +8,9 @@ blocks:
   title: "Контакты"
   links:
    - {link: "mailto:gdg.voronezh@gmail.com", text: "gdg.voronezh@gmail.com"}
+  data:
+   - "+1 123 456 78 90"
+   - "Loft Pineapple, 22 Pink Street, New York"
 socialLinks:
   - {link: "https://twitter.com", icon: "twitter"}
   - {link: "https://facebook.com", icon: "facebook"}
