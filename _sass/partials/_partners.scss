@@ -22,4 +22,24 @@
             filter: grayscale(0);
         }
     }
+
+    .table {
+        border-collapse: collapse;
+
+        .plus {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 100%;
+            color: white;
+            background-color: green;
+        }
+
+        .minus {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 100%;
+            color: white;
+            background-color: red;
+        }
+    }
 }

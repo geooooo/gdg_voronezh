@@ -2,6 +2,50 @@
 <section id="partners" class="partners">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
+
+            <h3>{{ site.data.ru.partners.forPartners }}</h3>
+            <p>{{ site.data.ru.partners.forPartnersDescription }}</p>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        {% for col in site.data.ru.partners.tableHeader %}
+                        <th>{{ header }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in site.data.ru.partners.tableBody %}
+                    <tr>
+                        {% for col in row %}
+                        <td>
+                            {% if col == "+" %}
+                                <span class="plus">+</span>
+                            {% elsif col == "-" %}
+                                <span class="minus">-</span>
+                            {% else  %}
+                                {{ col  }}
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        {% for col in site.data.ru.partners.tableFooter %}
+                        <td>
+                            {% if col != "" %}
+                            <a class="btn btn-success" href="{{ col.link }}">{{ col.text }}</a>
+                            {% endif %}
+                        </td>
+                        {% endfor %}
+                    </tr>
+                </tfoot>
+
+            </table>
+
+
             <h3>{{ site.data.ru.partners.titlePartners }}</h3>
             <p>{{ site.data.ru.partners.titlePartnersDescription }}</p>
 
