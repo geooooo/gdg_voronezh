@@ -1,16 +1,17 @@
 <!-- Begin Partners Section -->
 <section id="partners" class="partners">
     <div class="content-wrapper">
-        <div class="col-lg-10 col-lg-offset-1">
+        <div class="col-lg-10 col-lg-offset-1" style="overflow-x: auto">
 
             <h3>{{ site.data.ru.partners.forPartners }}</h3>
-            <p>{{ site.data.ru.partners.forPartnersDescription }}</p>
+            <h5>{{ site.data.ru.partners.forPartnersDescription }}</h5>
+            <br>
 
             <table class="table">
                 <thead>
                     <tr>
                         {% for col in site.data.ru.partners.tableHeader %}
-                        <th>{{ header }}</th>
+                        <th>{{ col }}</th>
                         {% endfor %}
                     </tr>
                 </thead>
@@ -20,9 +21,9 @@
                         {% for col in row %}
                         <td>
                             {% if col == "+" %}
-                                <span class="plus">+</span>
+                                <i class="material-icons plus">done</i>
                             {% elsif col == "-" %}
-                                <span class="minus">-</span>
+                                <i class="material-icons minus">clear</i>
                             {% else  %}
                                 {{ col  }}
                             {% endif %}
@@ -48,7 +49,7 @@
 
             <h3>{{ site.data.ru.partners.titlePartners }}</h3>
             <p>{{ site.data.ru.partners.titlePartnersDescription }}</p>
-
+            <br>
 
             <ul class="list-inline">
                 {% for element in site.data.ru.partners.partnersBlock %}

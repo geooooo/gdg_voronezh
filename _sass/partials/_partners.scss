@@ -26,20 +26,33 @@
     .table {
         border-collapse: collapse;
 
+        th,
+        td {
+            width: 20%;
+            padding: 20px 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        
+        th:first-child,
+        td:first-child {
+            text-align: left;
+        }
+
         .plus {
             display: inline-block;
-            padding: 5px 10px;
+            padding: 2px 2px;
             border-radius: 100%;
             color: white;
-            background-color: green;
+            background-color: #5cb85c;
         }
 
         .minus {
             display: inline-block;
-            padding: 5px 10px;
+            padding: 2px 2px;
             border-radius: 100%;
             color: white;
-            background-color: red;
+            background-color: #d9534f;
         }
     }
 }
