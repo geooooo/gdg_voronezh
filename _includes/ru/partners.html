@@ -1,0 +1,23 @@
+<!-- Begin Partners Section -->
+<section id="partners" class="partners">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h3>{{ site.data.ru.partners.titlePartners }}</h3>
+            <p>{{ site.data.ru.partners.titlePartnersDescription }}</p>
+
+
+            <ul class="list-inline">
+                {% for element in site.data.ru.partners.partnersBlock %}
+                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
+                    <a href="{{ element.link }}" target="_blank">
+                        <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div> 
+</section>
+<!-- End Partners Section -->
+

@@ -18,6 +18,12 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 heroImage: "hero.jpg"
 statisticBlockImage: "statistic.jpg"
+beforeImages:
+ - "before1.jpg"
+ - "before2.jpg"
+ - "before3.jpg"
+ - "before4.jpg"
+
 
 
 
@@ -62,7 +68,7 @@ statisticBlockImage: "statistic.jpg"
 #latestNewsTitle: "Latest news"
 #
 ## Rockstar Speakers Block
-#rockstarSpeakersImage: "rockstar-speakers.jpg"
+#rockstarSpeakersImage: "before1.jpg"
 #rockstarSpeakersCount: 4
 #rockstarSpeakersTitle: "Rockstar speakers"
 #rockstarSpeakersButtonText: "See all speakers"
