@@ -18,7 +18,7 @@ siteVerification: "TODO: какой-то ключ гугла"
 twitterAccount: "TODO:"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
-heroImage: "hero.jpg"
+heroImage: "city.jpg"
 statisticBlockImage: "statistic.jpg"
 beforeImages:
  - "before1.jpg"
