@@ -37,7 +37,7 @@
                         {% for col in site.data.en.partners.tableFooter %}
                         <td>
                             {% if col != "" %}
-                            <a class="btn btn-success" href="{{ col.link }}">{{ col.text }}</a>
+                            <a class="btn btn-success disabled" href="{{ col.link }}">{{ col.text }}</a>
                             {% endif %}
                         </td>
                         {% endfor %}
