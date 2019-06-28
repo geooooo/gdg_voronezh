@@ -2,5 +2,5 @@ title: "GDG DevFest Voronezh"
 eventDate: "12 Октября, 2019"
 typeoutFallback: "Воронеж"
 buttons:
- - {permalink: "/ru#tickets", text: "Купить билет"}
- - {link: "http://bit.ly/dfua-c4p", text: "Стать спикером"}
+ - {permalink: "/#tickets", text: "Купить билет"}
+ - {link: "https://forms.gle/xvPQmAFq3ujGTFw96", text: "Стать спикером"}

@@ -1,10 +1,12 @@
 links:
- - {permalink: "/ru#", text: "Главная"}
- - {permalink: "/ru#", text: "Спикеры"}
- - {permalink: "/ru#", text: "Программа"}
- - {permalink: "/ru#", text: "Место"}
- - {permalink: "/ru#", text: "Партнеры"}
+# - {permalink: "/#", text: "Главная"}
+# - {permalink: "/#", text: "Спикеры"}
+# - {permalink: "/#", text: "Программа"}
+# - {permalink: "/#", text: "Место"}
+ - {permalink: "/#tickets", text: "Билеты"}
+ - {permalink: "/#partners", text: "Партнеры"}
+ - {permalink: "/#question", text: "Задать вопрос"}
 bottomLinks:
- - {link: "http://bit.ly/dfua-c4p", text: "Стать спикером"}
+ - {link: "https://forms.gle/xvPQmAFq3ujGTFw96", text: "Стать спикером"}
 rightButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Стать спикером"}
+ - {link: "https://forms.gle/xvPQmAFq3ujGTFw96", text: "Стать спикером"}
