@@ -2,10 +2,6 @@ titlePartners: "Партнеры"
 titlePartnersDescription: "Если вы хотите стать нашим партнером, свяжитесь с нами по почте"
 forPartners: "Партнерам"
 forPartnersDescription: "Станьте партнёром иконференции, чтобы охватить максимум своей целевой аудитории"
-partnersBlock:
- - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
- - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
- - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
 tableFeatureHeader:
  - ""
  - "Бронзовый партнер"
