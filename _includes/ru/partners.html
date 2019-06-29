@@ -3,20 +3,49 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1" style="overflow-x: auto">
 
+            <h3>{{ site.data.ru.partners.titlePartners }}</h3>
+            <h5>{{ site.data.ru.partners.titlePartnersDescription }}</h5>
+            <br>
+
+            <table style="margin-bottom: 50px" class="table table__partners">
+                <tbody>
+                {% for row in site.data.ru.partners.tablePartners %}
+                <tr>
+                    {% if row[0] == "+" %}
+                    {% for col in row %}
+                    {% if col != "+" %}
+                    {% if col == row[1] %}
+                    <td>
+                        {{ col }}
+                    </td>
+                    {% else %}
+                    <td>
+                        <img src="{{ site.baseurl }}/img/partners/{{ col }}" alt="{{ col }}">
+                    </td>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                    {% endif %}
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            <br>
+
             <h3>{{ site.data.ru.partners.forPartners }}</h3>
             <h5>{{ site.data.ru.partners.forPartnersDescription }}</h5>
             <br>
 
-            <table class="table">
+            <table style="margin-bottom: 50px" class="table">
                 <thead>
                     <tr>
-                        {% for col in site.data.ru.partners.tableHeader %}
+                        {% for col in site.data.ru.partners.tableFeatureHeader %}
                         <th>{{ col }}</th>
                         {% endfor %}
                     </tr>
                 </thead>
                 <tbody>
-                    {% for row in site.data.ru.partners.tableBody %}
+                    {% for row in site.data.ru.partners.tableFeatureBody %}
                     <tr>
                         {% for col in row %}
                         <td>
@@ -34,7 +63,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        {% for col in site.data.ru.partners.tableFooter %}
+                        {% for col in site.data.ru.partners.tableFeatureFooter %}
                         <td>
                             {% if col != "" %}
                             <a class="btn btn-success disabled" href="{{ col.link }}">{{ col.text }}</a>
@@ -45,20 +74,6 @@
                 </tfoot>
 
             </table>
-
-            <h3 style="margin-top: 50px">{{ site.data.ru.partners.titlePartners }}</h3>
-            <h5>{{ site.data.ru.partners.titlePartnersDescription }}</h5>
-            <br>
-
-            <ul class="list-inline">
-                {% for element in site.data.ru.partners.partnersBlock %}
-                <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
-                    <a href="{{ element.link }}" target="_blank">
-                        <img src="{{ site.baseurl }}/img/partners/{{ element.imageUrl }}" title="{{ element.description }}" alt="{{ element.name }}">
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
 
         </div>
     </div> 

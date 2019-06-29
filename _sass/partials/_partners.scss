@@ -13,17 +13,35 @@
             }
         }
     }
-    img {
-        width: 100%;
-        transition: $base-transition;
-        filter: grayscale(1);
-        &:hover {
-            filter: grayscale(0);
-        }
-    }
 
     .table {
         border-collapse: collapse;
+
+        &__partners {
+            width: 100%;
+
+            tr {
+                border-bottom: 1px solid #ddd;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+
+            td {
+                padding: 40px 10px !important;
+                text-align: center !important;
+                border: none !important;
+
+                &:first-child {
+                    font-weight: bold;
+                }
+            }
+
+            img {
+                width: 150px;
+            }
+        }
 
         th,
         td {

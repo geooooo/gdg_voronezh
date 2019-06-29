@@ -6,13 +6,13 @@ partnersBlock:
  - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
  - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
  - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
-tableHeader:
+tableFeatureHeader:
  - ""
  - "Бронзовый партнер"
  - "Серебряный партнер"
  - "Золотой партнер"
  - "Платиновый партнер"
-tableBody:
+tableFeatureBody:
  -
   - "Размещение логотипа на официальной странице мероприятия"
   - "+"
@@ -67,9 +67,41 @@ tableBody:
   - "-"
   - "-"
   - "+"
-tableFooter:
+tableFeatureFooter:
  - ""
  - {text: "30 000", link: "#"}
  - {text: "50 000", link: "#"}
  - {text: "100 000", link: "#"}
  - {text: "150 000", link: "#"}
+
+tablePartners:
+ -
+  - "+"
+  - "Платиновый"
+  - "google.png"
+  - "surf.png"
+  - ""
+ -
+  - "-"
+  - "Золотой"
+  - ""
+  - ""
+  - ""
+ -
+  - "+"
+  - "Серебряный"
+  - "wrike.png"
+  - "avitotech.png"
+  - "adcombo.png"
+ -
+  - "-"
+  - "Бронзовый"
+  - ""
+  - ""
+  - ""
+ -
+  - "+"
+  - "Информационный"
+  - "pmm.png"
+  - ""
+  - ""
