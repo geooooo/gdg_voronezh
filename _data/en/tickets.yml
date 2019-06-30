@@ -1,12 +1,12 @@
 title: "Билеты"
-info: "* Тариф для студентов, при регистрации необходим студенческий билет"
+info: "* Requires a valid student ID at the conference check in."
 offers:
  -
-  name: "Специальный"
+  name: "Students"
   price: "350*"
   priceCurrency: "₽"
   buyButtonLink: "#"
-  buyButtonText: "Купить"
+  buyButtonText: "Soon"
   validFrom: ""
   validThrough: "до 5.08"
  -
@@ -14,7 +14,7 @@ offers:
   price: "500"
   priceCurrency: "₽"
   buyButtonLink: "#"
-  buyButtonText: "Купить"
+  buyButtonText: "Soon"
   validFrom: "c 5.08"
   validThrough: "по 31.08"
   featured: true
@@ -23,7 +23,7 @@ offers:
   price: "600"
   priceCurrency: "₽"
   buyButtonLink: "#"
-  buyButtonText: "Купить"
+  buyButtonText: "Soon"
   validFrom: "с 01.09"
   validThrough: "по 31.09"
  -
@@ -31,6 +31,6 @@ offers:
   price: "750"
   priceCurrency: "₽"
   buyButtonLink: "#"
-  buyButtonText: "Купить"
+  buyButtonText: "Soon"
   validFrom: "с 31.09"
   validThrough: "по 10.10"
