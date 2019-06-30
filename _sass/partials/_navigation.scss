@@ -187,9 +187,3 @@ nav {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.flag_en::after {
-    background-image: url($image-dir + "/flags/en.png");
-}
-.flag_ru::after {
-    background-image: url($image-dir + "/flags/ru.png");
-}
