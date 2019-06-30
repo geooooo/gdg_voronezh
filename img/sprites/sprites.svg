@@ -76,6 +76,9 @@
 <g id="icon-direction">
 	<path class="path1" d="M28,4.33H17.62l3.117,3.117l-7.356,7.356h-0.01V27.67h5.593V17.13l5.728-5.728L28,14.709V4.33z M12.824,17.109L4,8.285L7.955,4.33l7.632,7.632l-2.752,2.752h-0.011V17.109z"></path>
 </g>
+<g id="icon-insta">
+	<path class="path1" d="M795.508 102.835C794.573 102.835 793.815 103.593 793.815 104.528C793.815 105.462 794.573 106.22 795.508 106.22C796.443 106.22 797.2 105.462 797.2 104.528C797.2 103.593 796.443 102.835 795.508 102.835Z"></path>
+</g>
 </defs>
 
 <g fill="#464646">
@@ -103,6 +106,7 @@
 	<use xlink:href="#icon-vk" transform="translate(240 48)"></use>
 	<use xlink:href="#icon-arrow-down" transform="translate(290 48)"></use>
 	<use xlink:href="#icon-direction" transform="translate(338 48)"></use>
+	<use xlink:href="#icon-insta" transform="translate(386 48)"></use>
 </g>
 
 </svg>

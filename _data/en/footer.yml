@@ -11,10 +11,11 @@ blocks:
    - "+1 123 456 78 90"
 #   - "Loft Pineapple, 22 Pink Street, New York"
 socialLinks:
- - {link: "https://twitter.com", icon: "twitter"}
- - {link: "https://facebook.com", icon: "facebook"}
+ - {link: "https://twitter.com/GdgVoronezh", icon: "twitter"}
+ - {link: "https://fb.me/gdgvoronezh", icon: "facebook"}
+ - {link: "https://vk.com/gdgvoronezh", icon: "vk"}
+ - {link: "https://vk.com/gdgvoronezh", icon: "insta"}
 # TODO: links and telegram, vk
 # TODO: вписать остальных авторов и ссылки
 authors:
- - {name: "Юрий Корниенко", link: "#"}
- - {name: "Вася Пупкин", link: "#"}
+ - {name: "Yury Kornienko", link: "https://t.me/yury_kornienko"}
