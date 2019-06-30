@@ -12,19 +12,21 @@
                 {% for row in site.data.ru.partners.tablePartners %}
                 <tr>
                     {% if row[0] == "+" %}
-                    {% for col in row %}
-                    {% if col != "+" %}
-                    {% if col == row[1] %}
-                    <td>
-                        {{ col }}
-                    </td>
-                    {% else %}
-                    <td>
-                        <img src="{{ site.baseurl }}/img/partners/{{ col }}" alt="{{ col }}">
-                    </td>
-                    {% endif %}
-                    {% endif %}
-                    {% endfor %}
+                        {% for col in row %}
+                            {% if col != "+" %}
+                                {% if col == row[1] %}
+                                <td>
+                                    {{ col }}
+                                </td>
+                                {% else %}
+                                <td>
+                                    <a href="{{ col.link }}">
+                                        <img src="{{ site.baseurl }}/img/partners/{{ col.img }}" alt="{{ col.img }}">
+                                    </a>
+                                </td>
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
                     {% endif %}
                 </tr>
                 {% endfor %}

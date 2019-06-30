@@ -2,6 +2,7 @@ title: "Билеты"
 info: "* Тариф для студентов, при регистрации необходим студенческий билет"
 offers:
  -
+  disabled: false
   name: "Специальный"
   price: "350*"
   priceCurrency: "₽"
@@ -10,6 +11,7 @@ offers:
   validFrom: ""
   validThrough: "до 5.08"
  -
+  disabled: false
   name: "Early Bird"
   price: "500"
   priceCurrency: "₽"
@@ -19,6 +21,7 @@ offers:
   validThrough: "по 31.08"
   featured: true
  -
+  disabled: false
   name: "Standart"
   price: "600"
   priceCurrency: "₽"
@@ -27,6 +30,7 @@ offers:
   validFrom: "с 01.09"
   validThrough: "по 31.09"
  -
+  disabled: false
   name: "Last chance"
   price: "750"
   priceCurrency: "₽"

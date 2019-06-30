@@ -74,8 +74,8 @@ tablePartners:
  -
   - "+"
   - "Платиновый"
-  - "google.png"
-  - "surf.png"
+  - {img: "google.png", link: "#"}
+  - {img: "surf.png", link: "#"}
   - ""
  -
   - "-"
@@ -86,9 +86,9 @@ tablePartners:
  -
   - "+"
   - "Серебряный"
-  - "wrike.png"
-  - "avitotech.png"
-  - "adcombo.png"
+  - {img: "wrike.png", link: "#"}
+  - {img: "avitotech.png", link: "#"}
+  - {img: "adcombo.png", link: "#"}
  -
   - "-"
   - "Бронзовый"
@@ -98,6 +98,6 @@ tablePartners:
  -
   - "+"
   - "Информационный"
-  - "pmm.png"
+  - {img: "pmm.png", link: "#"}
   - ""
   - ""

@@ -20,7 +20,9 @@
                     </td>
                     {% else %}
                     <td>
-                        <img src="{{ site.baseurl }}/img/partners/{{ col }}" alt="{{ col }}">
+                        <a href="{{ col.link }}">
+                            <img src="{{ site.baseurl }}/img/partners/{{ col.img }}" alt="{{ col.img }}">
+                        </a>
                     </td>
                     {% endif %}
                     {% endif %}

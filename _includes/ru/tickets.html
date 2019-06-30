@@ -12,7 +12,11 @@
 						<p class="price">{{ ticketsOffer.price }} <span class="currency">{{ ticketsOffer.priceCurrency }}</span></p>
 					</div>
 					<div class="pricing-content">
+						{% if ticketsOffer.disabled %}
+						<span class="button disabled">{{ ticketsOffer.buyButtonText }}</span>
+						{% else %}
 						<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
+						{% endif %}
 					</div>
 				</div>
             {% endfor %}

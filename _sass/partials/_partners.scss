@@ -20,6 +20,15 @@
         &__partners {
             width: 100%;
 
+            img {
+                width: 100%;
+                transition: $base-transition;
+                filter: grayscale(1);
+                &:hover {
+                    filter: grayscale(0);
+                }
+            }
+
             tr {
                 border-bottom: 1px solid #ddd;
 
@@ -35,6 +44,7 @@
 
                 &:first-child {
                     font-weight: bold;
+                    font-size: 1.5em;
                 }
             }
 
