@@ -11,7 +11,7 @@ sass:
   sass_dir: _sass
 
 ## Site Settings
-baseurl: "/gdg_voronezh"
+baseurl: ""
 url: "https://geooooo.github.io"
 #siteVerification: "TODO: какой-то ключ гугла"
 #twitterAccount: "TODO:"
