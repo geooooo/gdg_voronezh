@@ -7,6 +7,6 @@ links:
  - {permalink: "/#partners", text: "Партнеры"}
  - {permalink: "/#question", text: "Задать вопрос"}
 bottomLinks:
- - {link: "https://forms.gle/xvPQmAFq3ujGTFw96", text: "Стать спикером"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSe15BaDDwHXX4ZyrgkYLfWsShpwDzPU-OT6a28x2ddPoE8Cbg/viewform", text: "Стать спикером"}
 rightButtons:
- - {link: "https://forms.gle/xvPQmAFq3ujGTFw96", text: "Стать спикером"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLSe15BaDDwHXX4ZyrgkYLfWsShpwDzPU-OT6a28x2ddPoE8Cbg/viewform", text: "Стать спикером"}
