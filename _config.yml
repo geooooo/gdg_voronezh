@@ -12,6 +12,9 @@ sass:
 
 ## Site Settings
 title: "GDG DevFest Voronezh 2019"
+email: "gdg.voronezh@gmail.com"
+description: "GDG Voronezh - this is where IT all happens"
+
 baseurl: ""
 url: "https://geooooo.github.io"
 #siteVerification: "TODO: какой-то ключ гугла"
