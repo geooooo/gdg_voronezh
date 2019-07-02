@@ -11,6 +11,7 @@ sass:
   sass_dir: _sass
 
 ## Site Settings
+title: "GDG DevFest Voronezh 2019"
 baseurl: ""
 url: "https://geooooo.github.io"
 #siteVerification: "TODO: какой-то ключ гугла"
