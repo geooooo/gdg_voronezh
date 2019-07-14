@@ -1,0 +1,41 @@
+- 
+  id: 0
+  name: "Евгений"
+  surname: "Сатуров"
+  title: "GDG Lead (Surf)"
+  thumbnailUrl: evgenii_saturov.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+- 
+  id: 1
+  name: "Алексей"
+  surname: "Туркин"
+  title: "Android Dev (Мануфактура Софт)"
+  thumbnailUrl: alex_turkin.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+- 
+  id: 2
+  name: "Анастасия"
+  surname: "Калашникова"
+  title: "Психолог в ИТ (Devleads)"
+  thumbnailUrl: anastasia_kalashnikova.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+- 
+  id: 3
+  name: "Светлана"
+  surname: "Воробьёва"
+  title: "PR (Мануфактура Софт)"
+  thumbnailUrl: svetlana_vorobiova.jpg
+  team: true
+- 
+  id: 4
+  name: "Евгений"
+  surname: "Горбачёв"
+  title: "Backend Dev (Wrike)"
+  thumbnailUrl: evgenii_gorbachov.jpg
+  team: true
