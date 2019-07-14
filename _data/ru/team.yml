@@ -39,3 +39,10 @@
   title: "Backend Dev (Wrike)"
   thumbnailUrl: evgenii_gorbachov.jpg
   team: true
+- 
+  id: 5
+  name: "Анна"
+  surname: "Твилдиани"
+  title: "PR (Surf)"
+  thumbnailUrl: anna_tvildiani.jpg
+  team: true
