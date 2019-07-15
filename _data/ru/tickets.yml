@@ -2,21 +2,21 @@ title: "Билеты"
 info: "* При регистрации на входе потребуется действительный студенческий билет"
 offers:
  -
-  disabled: true
+  disabled: false
   name: "Студенческий"
   price: "350*"
   priceCurrency: "₽"
-  buyButtonLink: "#"
-  buyButtonText: "Скоро"
+  buyButtonLink: "https://gdg-voronezh-event.timepad.ru/event/1009116/"
+  buyButtonText: "Купить"
   validFrom: ""
   validThrough: "до 5.08"
  -
-  disabled: true
+  disabled: false
   name: "Early Bird"
   price: "500"
   priceCurrency: "₽"
-  buyButtonLink: "#"
-  buyButtonText: "Скоро"
+  buyButtonLink: "https://gdg-voronezh-event.timepad.ru/event/1009116/"
+  buyButtonText: "Купить"
   validFrom: "c 5.08"
   validThrough: "по 31.08"
   featured: true
