@@ -14,6 +14,8 @@ sass:
 title: "GDG DevFest Voronezh 2019"
 email: "gdg.voronezh@gmail.com"
 description: "GDG Voronezh - this is where IT all happens"
+googleAnalyticsTrackingId: "UA-143852322-1"
+googleAnalyticsSiteUrl: "gdgvrn.ru"
 
 baseurl: ""
 url: "https://geooooo.github.io"
