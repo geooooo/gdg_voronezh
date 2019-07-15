@@ -46,3 +46,17 @@
   title: "PR (Surf)"
   thumbnailUrl: anna_tvildiani.jpg
   team: true
+- 
+  id: 6
+  name: "Юрий"
+  surname: "Корниенко"
+  title: "Frontend Dev (Wrike)"
+  thumbnailUrl: yury_kornienko.jpg
+  team: true
+- 
+  id: 7
+  name: "Екатерина"
+  surname: "Кривцова"
+  title: "PR (AdCombo)"
+  thumbnailUrl: kate_krivtzova.jpg
+  team: true
