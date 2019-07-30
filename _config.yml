@@ -1,8 +1,22 @@
 ## Plugins
 plugins:
- - jekyll-sitemap
-# - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
 safe: false
+
+# I18n
+languages: ["ru", "en"]
+# exclude_from_localizations: [
+#   "img",
+#   "js",
+#   "fonts",
+#   "css", 
+#   "CNAME"
+# ]
+defaultLang: ru
+languageNames:
+  ru: Russian
+  en: English
 
 ## Build Settings
 markdown: kramdown
@@ -10,17 +24,8 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 sass:
   sass_dir: _sass
 
-## Site Settings
-title: "GDG DevFest Voronezh 2019"
-email: "gdg.voronezh@gmail.com"
-description: "GDG Voronezh - this is where IT all happens"
-
 baseurl: ""
 url: "https://geooooo.github.io"
-#siteVerification: "TODO: какой-то ключ гугла"
-#twitterAccount: "TODO:"
-#socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
-#socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 heroImage: "city.jpg"
 statisticBlockImage: "statistic.jpg"
 beforeImages:
