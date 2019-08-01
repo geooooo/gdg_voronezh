@@ -5,21 +5,25 @@
     .speaker {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
         margin-bottom: 30px;
 
         &__left {
-            width: 40%;
-            min-width: 150px;
             margin-bottom: 15px;
             display: flex;
-            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            align-items: flex-start;
+
+            @media (min-width: 850px) {
+                justify-content: flex-start;
+            }            
         }
 
         &__right {
             display: flex;
             width: 60%;
-            padding-left: 15px;
+            flex-grow: 1;
             flex-direction: column;
             justify-content: center;
         }
@@ -27,13 +31,15 @@
         &__avatar {
             width: 100%;
             min-width: 150px;
-            border-radius: 100%;
+            max-width: 300px;
+            border-radius: 100%
         }
 
         &__header {
             margin-bottom: 15px;
             display: flex;
-            justify-content: center;
+            flex-wrap: wrap;
+            justify-content: flex-start;
             font-size: 2em;
         }
 
@@ -46,6 +52,7 @@
         }
 
         &__doc-title {
+            text-align: left;
             margin-bottom: 15px;
             font-size: 1.8em;
         }
@@ -56,9 +63,18 @@
         }
 
         &__doc-hash-tags {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        &__doc-hash-tag {
+            margin-right: 1em;
             font-size: 1.2em;
             color: #0aa8f3;
-            text-align: right;
+
+            &:last-child {
+                margin-right: 0;
+            }
         }
     }
 }

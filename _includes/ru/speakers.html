@@ -20,7 +20,13 @@
 							<div class="speaker__doc-description">{{ speaker.doc.description }}</div>
 						</div>
 						<div class="speaker__footer">
-							<div class="speaker__doc-hash-tags">{{ speaker.doc.hashTags }}</div>
+							<div class="speaker__doc-hash-tags">
+							{% for hashTag in speaker.doc.hashTags %}
+								<div class="speaker__doc-hash-tag">
+									<a href="{{ site.instagramHashTagLink }}{{ hashTag }}/">#{{ hashTag }}</a>
+								</div>
+							{% endfor %}
+							</div>
 						</div>
 				   </div>
 			   </div>
