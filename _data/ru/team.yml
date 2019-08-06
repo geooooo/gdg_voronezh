@@ -60,3 +60,17 @@
   title: "PR (AdCombo)"
   thumbnailUrl: kate_krivtzova.jpg
   team: true
+- 
+  id: 8
+  name: "Анна"
+  surname: "Колтакова"
+  title: "PR (DSR Corporation)"
+  thumbnailUrl: anna_koltakova.jpg
+  team: true
+- 
+  id: 9
+  name: "Константин"
+  surname: "Некрасов"
+  title: "Lead Software Engineer (DSR Corporation)"
+  thumbnailUrl: konstantin_nekrasov.jpg
+  team: true
