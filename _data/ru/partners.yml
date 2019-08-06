@@ -73,31 +73,46 @@ tableFeatureFooter:
 tablePartners:
  -
   - "+"
-  - "Платиновый"
-  - {img: "google.png", link: "#"}
-  - {img: "surf.png", link: "#"}
+  - "Платиновые"
+  - {img: "google.png", link: "https://developers.google.com/community/gdg/"}
+  - {img: "surf.png", link: "https://surfstudio.ru/"}
   - ""
  -
   - "-"
-  - "Золотой"
+  - "Золотые"
   - ""
   - ""
   - ""
  -
   - "+"
-  - "Серебряный"
-  - {img: "wrike.png", link: "#"}
-  - {img: "avitotech.png", link: "#"}
-  - {img: "adcombo.png", link: "#"}
+  - "Серебряные"
+  - {img: "wrike.png", link: "https://www.wrike.com/ru/"}
+  - {img: "avitotech.png", link: "https://tech.avito.ru/"}
+  - {img: "adcombo.png", link: "https://adcombo.com/"}
+  - {img: "dsr.jpg", link: "https://ru.dsr-corporation.com/"}
  -
   - "-"
-  - "Бронзовый"
+  - "Бронзовые"
   - ""
   - ""
   - ""
  -
   - "+"
-  - "Информационный"
-  - {img: "pmm.png", link: "#"}
+  - "Организационные"
+  - {img: "pmm.png", link: "http://www.amm.vsu.ru/"}
+  - {img: "mariott.jpg", link: "https://www.marriott.com.ru/hotels/travel/vozmc-voronezh-marriott/"}
   - ""
-  - ""
+ -
+  - "+"
+  - "Информационные"
+  - {img: "hh.png", link: "https://hh.ru"}
+  - {img: "downtown.png", link: "http://downtown.ru/voronezh/"}
+  - {img: "bgstaf.png", link: "https://bgstaff.ru/"}
+  - {img: "itevents.jpg", link: "https://tele.click/iteventsru"}
+ -
+  - "+"
+  - "Образовательные"
+  - {img: "uzgu.png", link: "https://swsu.ru/"}
+  - {img: "lgtu.jpg", link: "http://www.stu.lipetsk.ru/"}
+  - {img: "mol_work_center.png", link: "https://vk.com/vrn_career"}
+  - {img: "vivt.png", link: "https://vivt.ru/"}
