@@ -17,42 +17,6 @@
     .table {
         border-collapse: collapse;
 
-        &__partners {
-            width: 100%;
-
-            img {
-                width: 100%;
-                transition: $base-transition;
-                filter: grayscale(1);
-                &:hover {
-                    filter: grayscale(0);
-                }
-            }
-
-            tr {
-                border-bottom: 1px solid #ddd;
-
-                &:last-child {
-                    border-bottom: none;
-                }
-            }
-
-            td {
-                padding: 40px 10px !important;
-                text-align: center !important;
-                border: none !important;
-
-                &:first-child {
-                    font-weight: bold;
-                    font-size: 1.5em;
-                }
-            }
-
-            img {
-                width: 150px;
-            }
-        }
-
         th,
         td {
             width: 20%;
@@ -80,6 +44,71 @@
             border-radius: 100%;
             color: white;
             background-color: #d9534f;
+        }
+    }
+
+    .table-partners {
+        display: flex;
+        flex-direction: column;
+
+        &__row {
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #ddd;
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+
+        &__col {
+            padding: 40px 40px !important;
+
+            &:first-child {
+                font-weight: bold;
+                font-size: 1.5em;
+                width: 100%;
+                text-transform: uppercase;
+            }
+
+            &_platinum {
+                color: #d9dae0;
+            }
+
+            &_silver {
+                color: #c0c0c0;
+            }
+
+            &_gold {
+                color: #fed84b;
+            }
+
+            &_bronze {
+                color: #906a3b;
+            }
+
+            &_org {
+                color: #bd2020;
+            }
+
+            &_info {
+                color: #20bd2f
+            }
+
+            &_study {
+                color: #4ec3ff;
+            }
+
+            img {
+                width: 150px;
+                transition: $base-transition;
+                filter: grayscale(1);
+                &:hover {
+                    filter: grayscale(0);
+                }
+            }
         }
     }
 }

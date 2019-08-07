@@ -7,31 +7,44 @@
             <h5>{{ site.data.ru.partners.titlePartnersDescription }}</h5>
             <br>
 
-            <table style="margin-bottom: 50px" class="table table__partners">
-                <tbody>
+            <div style="margin-bottom: 50px" class="table-partners">
                 {% for row in site.data.ru.partners.tablePartners %}
-                <tr>
                     {% if row[0] == "+" %}
+                    <div class="table-partners__row">
                         {% for col in row %}
                             {% if col != "+" %}
                                 {% if col == row[1] %}
-                                <td>
-                                    {{ col }}
-                                </td>
-                                {% else %}
-                                <td>
-                                    <a href="{{ col.link }}">
-                                        <img src="{{ site.baseurl }}/img/partners/{{ col.img }}" alt="{{ col.img }}">
-                                    </a>
-                                </td>
+                                    {% if col == "Платиновые" %}
+                                        {% assign color = 'table-partners__col_platinum' %}
+                                    {% elsif col == "Золотые" %}
+                                        {% assign color = 'table-partners__col_gold' %}
+                                    {% elsif col == 'Серебряные' %}
+                                        {% assign color = 'table-partners__col_silver' %}
+                                    {% elsif col == 'Бронзовые' %}
+                                        {% assign color = 'table-partners__col_bronze' %}
+                                    {% elsif col == 'Организационные' %}
+                                        {% assign color = 'table-partners__col_org' %}
+                                    {% elsif col == 'Информационные' %}
+                                        {% assign color = 'table-partners__col_info' %}
+                                    {% elsif col == 'Образовательные' %}
+                                        {% assign color = 'table-partners__col_study' %}
+                                    {% endif %}
+                                    <div class="table-partners__col {{ color }}">
+                                        {{ col }}
+                                    </div>
+                                    {% elsif col != "" %}
+                                    <div class="table-partners__col">
+                                        <a href="{{ col.link }}">
+                                            <img src="{{ site.baseurl }}/img/partners/{{ col.img }}" alt="{{ col.img }}">
+                                        </a>
+                                    </div>
                                 {% endif %}
                             {% endif %}
                         {% endfor %}
+                    </div>
                     {% endif %}
-                </tr>
                 {% endfor %}
-                </tbody>
-            </table>
+            </div>
             <br>
 
             <h3>{{ site.data.ru.partners.forPartners }}</h3>
