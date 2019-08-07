@@ -33,3 +33,12 @@ beforeImages:
  - "before4.jpeg"
 questionImage: "question.jpg"
 aboutImage: "about.jpg"
+
+# Venue Block
+venueBlockTitle: "Место проведения"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "Mariott Voronezh"
+venueFeatures: ["3 комфортабельных зала", "Расположение в самом центре города", "Множество хороших ресторанов в шаговой доступности"]
