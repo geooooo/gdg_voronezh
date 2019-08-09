@@ -109,6 +109,8 @@ tablePartners:
   - {img: "downtown.png", link: "http://downtown.ru/voronezh/"}
   - {img: "bgstaf.png", link: "https://bgstaff.ru/"}
   - {img: "itevents.jpg", link: "https://tele.click/iteventsru"}
+  - {img: "moikrug.png", link: "https://moikrug.ru/"}
+  - {img: "belit.png", link: "http://belitcluster.ru/"}
  -
   - "+"
   - "Образовательные"
