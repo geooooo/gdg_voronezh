@@ -11,24 +11,24 @@ offers:
   validFrom: ""
   validThrough: "до 5.08"
  -
-  disabled: false
+  disabled: true
   name: "Early Bird"
   price: "500"
   priceCurrency: "₽"
   buyButtonLink: "https://gdg-voronezh-event.timepad.ru/event/1009116/"
-  buyButtonText: "Купить"
+  buyButtonText: "Проданы"
   validFrom: "c 5.08"
   validThrough: "по 31.08"
-  featured: true
  -
-  disabled: true
+  disabled: false
   name: "Standart"
   price: "600"
   priceCurrency: "₽"
-  buyButtonLink: "#"
-  buyButtonText: "Скоро"
+  buyButtonLink: "https://gdg-voronezh-event.timepad.ru/event/1009116/"
+  buyButtonText: "Купить"
   validFrom: "с 01.09"
   validThrough: "по 31.09"
+  featured: true
  -
   disabled: true
   name: "Last chance"
