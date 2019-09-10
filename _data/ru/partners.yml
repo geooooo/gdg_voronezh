@@ -111,6 +111,11 @@ tablePartners:
   - {img: "itevents.jpg", link: "https://tele.click/iteventsru"}
   - {img: "moikrug.png", link: "https://moikrug.ru/"}
   - {img: "belit.png", link: "http://belitcluster.ru/"}
+  - {img: "abireg.jpg", link: "https://abireg.ru/"}
+  - {img: "36on.png", link: "http://36on.ru/"}
+  - {img: "expomap.png", link: "https://expomap.ru/"}
+  - {img: "tproger.png", link: "https://tproger.ru/"}
+  - {img: "fonar.png", link: "https://fonar.tv/"}
  -
   - "+"
   - "Образовательные"
