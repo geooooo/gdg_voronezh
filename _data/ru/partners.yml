@@ -91,9 +91,9 @@ tablePartners:
   - {img: "adcombo.png", link: "https://adcombo.com/"}
   - {img: "dsr.jpg", link: "https://ru.dsr-corporation.com/"}
  -
-  - "-"
+  - "+"
   - "Бронзовые"
-  - ""
+  - {img: "skyeng.png", link: "https://skyeng.ru/"}
   - ""
   - ""
  -
@@ -118,6 +118,7 @@ tablePartners:
   - {img: "fonar.png", link: "https://fonar.tv/"}
   - {img: "wadline.png", link: "https://wadline.ru/events"}
   - {img: "jobsora.png", link: "https://ru.jobsora.com/"}
+  - {img: "workslam.png", link: "https://workslam.ru/"}
  -
   - "+"
   - "Образовательные"
