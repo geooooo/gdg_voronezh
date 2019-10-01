@@ -90,10 +90,12 @@ tablePartners:
   - {img: "avitotech.png", link: "https://tech.avito.ru/"}
   - {img: "adcombo.png", link: "https://adcombo.com/"}
   - {img: "dsr.jpg", link: "https://ru.dsr-corporation.com/"}
+  - {img: "angels_it.png", link: "https://angelsit.ru/"}
  -
   - "+"
   - "Бронзовые"
   - {img: "skyeng.png", link: "https://skyeng.ru/"}
+  - {img: "arenum.png", link: "http://arenum.games/"}
   - ""
   - ""
  -
