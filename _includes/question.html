@@ -41,24 +41,24 @@
     <div class="content-wrapper">
         <div class="col-lg-8 col-lg-offset-2">
 
-            <h3>{{ site.data.en.question.title }}</h3>
+            <h3>{{ site.data.question.title }}</h3>
 
             <div id="mc_embed_signup" class="col-lg-8 col-sm-8 col-lg-offset-2 col-sm-offset-2">
                 <form onsubmit="return false" novalidate>
 
                     <i class="input bordered required">
-                        <input id="email" type="email" value="" name="email" class="waves-button-input" placeholder="{{ site.data.en.question.emailPlaceholder }}" autocomplete="off">
+                        <input id="email" type="email" value="" name="email" class="waves-button-input" placeholder="{{ site.data.question.emailPlaceholder }}" autocomplete="off">
                     </i>
 
                     <i class="input bordered required">
-                        <input id="name" type="text" value="" name="name" class="waves-button-input" placeholder="{{ site.data.en.question.namePlaceholder }}" autocomplete="off">
+                        <input id="name" type="text" value="" name="name" class="waves-button-input" placeholder="{{ site.data.question.namePlaceholder }}" autocomplete="off">
                     </i>
 
                     <i class="textarea bordered required">
-                        <textarea id="comment" placeholder="{{ site.data.en.question.commentPlaceholder }}" name="comment" class="waves-button-input"></textarea>
+                        <textarea id="comment" placeholder="{{ site.data.question.commentPlaceholder }}" name="comment" class="waves-button-input"></textarea>
                     </i>
 
-                    <input id="questionButton" data-toggle="modal" data-target="#exampleModalLong" type="submit" class="button btn btn-primary" value="{{ site.data.en.question.submitText }}">
+                    <input id="questionButton" type="submit" class="button btn btn-primary" value="{{ site.data.question.submitText }}">
 
                 </form>
             </div>

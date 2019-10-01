@@ -3,12 +3,12 @@
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
 
-            <h3>{{ site.data.ru.partners.titlePartners }}</h3>
-            <h5>{{ site.data.ru.partners.titlePartnersDescription }}</h5>
+            <h3>{{ site.data.partners.titlePartners }}</h3>
+            <h5>{{ site.data.partners.titlePartnersDescription }}</h5>
             <br>
 
             <div style="margin-bottom: 50px" class="table-partners">
-                {% for row in site.data.ru.partners.tablePartners %}
+                {% for row in site.data.partners.tablePartners %}
                     {% if row[0] == "+" %}
                     <div class="table-partners__row">
                         {% for col in row %}
@@ -49,20 +49,20 @@
         </div>
 
         <div class="col-lg-10 col-lg-offset-1" style="overflow-x: auto">
-            <h3>{{ site.data.ru.partners.forPartners }}</h3>
-            <h5>{{ site.data.ru.partners.forPartnersDescription }}</h5>
+            <h3>{{ site.data.partners.forPartners }}</h3>
+            <h5>{{ site.data.partners.forPartnersDescription }}</h5>
             <br>
 
             <table style="margin-bottom: 50px" class="table">
                 <thead>
                     <tr>
-                        {% for col in site.data.ru.partners.tableFeatureHeader %}
+                        {% for col in site.data.partners.tableFeatureHeader %}
                         <th>{{ col }}</th>
                         {% endfor %}
                     </tr>
                 </thead>
                 <tbody>
-                    {% for row in site.data.ru.partners.tableFeatureBody %}
+                    {% for row in site.data.partners.tableFeatureBody %}
                     <tr>
                         {% for col in row %}
                         <td>
@@ -80,7 +80,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        {% for col in site.data.ru.partners.tableFeatureFooter %}
+                        {% for col in site.data.partners.tableFeatureFooter %}
                         <td>
                             {% if col != "" %}
                             <a class="btn btn-success disabled" href="{{ col.link }}">{{ col.text }}</a>

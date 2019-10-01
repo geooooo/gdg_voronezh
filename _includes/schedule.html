@@ -1,0 +1,22 @@
+<section id="schedule" class="schedule">
+    <div class="content-wrapper">
+        <div class="schedule-table col-lg-8 col-md-10 col-md-offset-1">
+            <h4 class="schedule-table-heading">{{ site.data.schedule.date }}</h4>
+            <div class="timeslot track-header stick-header"> 
+                <div class="timeslot-elements flexbox-wrapper">
+                    {% for track in site.data.schedule.tracks %}
+                    {% assign trackColWidth = 12 | divided_by: forloop.length %}
+                    <div style="display:flex;justify-content: center; align-items: center;" class="track-header-slot col-md-{{ trackColWidth }} flexbox-item-height hidden-xs">
+                        <h5 style="text-align:center; color: #002266;" class="track-header-title">{{ track.title }}</h5>
+                    </div>
+                    {% endfor %}
+                    <div class="track-header-slot col-xs-12 visible-xs">
+                        <h5 class="slot-detail track-header-title"></h5>
+                    </div>
+                </div>
+            </div>
+            
+            {% include schedule_timeslots.html %}
+        </div>
+    </div>
+</section>

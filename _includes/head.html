@@ -1,32 +1,21 @@
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-    <meta name="author" content="{{ site.data.ru.general.authors }}">
-    <meta name="description" content="{{ site.data.ru.general.description }}">
-    <meta name="keywords" content="{{ site.data.general.ru.metaKeywords }}">
+    <meta name="author" content="{{ site.data.general.authors }}">
+    <meta name="description" content="{{ site.data.general.description }}">
+    <meta name="keywords" content="{{ site.data.general.metaKeywords }}">
    <meta name="google-site-verification" content="{{ site.siteVerification }}" />
 
-   <!--<meta name="twitter:card" content="summary">
-   <meta name="twitter:site" content="{{ site.twitterAccount }}">
-   <meta name="twitter:title" content="{{ site.data.ru.general.siteTitle }}">
-   <meta name="twitter:description" content="{{ site.data.ru.general.description }}">
-   <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}">-->
-
-    <meta property="og:title" content="{{ site.data.ru.general.siteTitle }}" />
-    <meta property="og:site_name" content="{{ site.data.ru.general.siteTitle }}" />
+    <meta property="og:title" content="{{ site.data.general.siteTitle }}" />
+    <meta property="og:site_name" content="{{ site.data.general.siteTitle }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:image" content="{{ "/img/favicons/apple-touch-icon-152x152.png" | prepend: site.baseurl }}" />
-    <meta property="og:description" content="{{ site.data.ru.general.description }}" />
+    <meta property="og:description" content="{{ site.data.general.description }}" />
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-
-<!--    TODO: telegram -->
-
-<!--    TODO: VK-->
     
     <title>{% if page.title %}{{ page.title }} &bull; {{ site.data.en.general.siteTitle }}{% else %}{{ site.data.en.general.siteTitle }}{% endif %}</title>
 

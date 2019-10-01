@@ -25,6 +25,7 @@ instagramHashTagLink: https://www.instagram.com/explore/tags/
 #socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 #socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 heroImage: "city.jpg"
+heroScheduleImage: "city.jpg" #//TODO: here
 statisticBlockImage: "statistic.jpg"
 beforeImages:
  - "before1.jpeg"

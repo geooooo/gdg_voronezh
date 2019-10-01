@@ -4,7 +4,7 @@
 	<div class="content-wrapper">
 		<div class="col-lg-10 col-lg-offset-1">
 			{% assign animationDelay = 0 %}
-            {% for statistic in site.data.en.statistic.block %}
+            {% for statistic in site.data.statistic.block %}
             {% assign colWidth = 12 | divided_by: forloop.length %}
             <div class="col-sm-{{ colWidth }} col-xs-6">
                 <div class="counter animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">

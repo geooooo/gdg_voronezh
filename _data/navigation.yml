@@ -1,8 +1,8 @@
 links:
 # - {permalink: "/#", text: "Главная"}
 # - {permalink: "/#", text: "Спикеры"}
-# - {permalink: "/#", text: "Программа"}
 # - {permalink: "/#", text: "Место"}
+ - {permalink: "/schedule", text: "Расписание"}
  - {permalink: "/#tickets", text: "Билеты"}
  - {permalink: "/#partners", text: "Партнеры"}
  - {permalink: "/#question", text: "Задать вопрос"}
