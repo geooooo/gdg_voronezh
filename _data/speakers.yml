@@ -42,6 +42,7 @@ speakers:
         - навигация
         - урбанистика
   - avatar: 'michail_kluev.png'
+    id: 2
     name: 'Михаил Клюев'
     company: 'Avito (Москва)'
     doc:
@@ -53,6 +54,7 @@ speakers:
         - техпиар
         - личный бренд
   - avatar: 'alexandr_smirnov.png'
+    id: 1 #TODO: аналогичным образом каждому спикеру поставить id в соответствии с id в файле schedule.yml
     name: 'Александр Смирнов'
     company: 'Raiffeisen Bank (Москва)'
     doc:
@@ -81,6 +83,7 @@ speakers:
         - карьерный рост
         - самообучение
   - avatar: 'anastasia_kalashnikova.png'
+    id: 5
     name: 'Анастасия Калашникова'
     company: 'Devleads (Москва)'
     doc:
@@ -140,6 +143,7 @@ speakers:
         - PHP
         - backend
   - avatar: 'anna_svarovskaja.png'
+    id: 4
     name: 'Анна Сваровская'
     company: 'Choice Studio (Москва)'
     doc:
@@ -205,6 +209,7 @@ speakers:
         - техдолг
         - процессы в большой компании
   - avatar: 'ilia_kaznacheev.png'
+    id: 3
     name: 'Илья Казначеев'
     company: 'CodersRank (Воронеж)'
     doc:

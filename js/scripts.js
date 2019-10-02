@@ -45,13 +45,13 @@
                 buyButton.addClass('right-nav-button-hidden');
             }
 
-            $('.slot').each(function() {
-                var currentPosition = $(this).offset().top - scroll;
-                var offsetActivator = topOffset + $(this).find('.slot-title').height();
-                if (currentPosition <= offsetActivator && currentPosition >= 0) {
-                    $('.track-header.sticky').find('.slot-detail').html($(this).data('slotDetail'));
-                }
-            });
+            // $('.slot').each(function() {
+            //     var currentPosition = $(this).offset().top - scroll;
+            //     var offsetActivator = topOffset + $(this).find('.slot-title').height();
+            //     if (currentPosition <= offsetActivator && currentPosition >= 0) {
+            //         $('.track-header.sticky').find('.slot-detail').html($(this).data('slotDetail'));
+            //     }
+            // });
         });
 
         $(window).resize(function() {
@@ -225,6 +225,7 @@
             var iframe = $(this).find('iframe');
             iframe.attr('src', iframe.attr('src'));
         });
+        //TODO: в будущем надо будет раскомментить
         // $('.slot').click(function() {
         //     location.hash = $(this).attr('id');
         // });

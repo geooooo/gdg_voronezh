@@ -10,21 +10,51 @@ timeslots:
     sessionIds: [001]
   }
   - {
+    startTime: "10:00",
+    endTime: "10:30",
+    sessionIds: [002]
+  }
+  - {
     startTime: "10:30",
     endTime: "11:30",
-    sessionIds: [002, 002, 002]
+    sessionIds: [003, 404, 004]
+  }
+  - {
+    startTime: "11:30",
+    endTime: "12:30",
+    sessionIds: [005, 006, 007]
   }
 sessions:
   -
     id: 001
     service: true
-    title: "Polymer: Interacting with Google Services using nothing but HTML"
+    title: "Регистрация"
   -
     id: 002
-    title: "Polymer: Interacting with Google Services using nothing but HTML"
-    description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-    subtype: keynote
-    speakers: [6]
-    complexity: "Beginner"
-    presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
-    video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+    service: true
+    title: "Открывающий киноут (кто-то из гуглеров)"
+  -
+    id: 003
+    title: "Animations in 2k19"
+    subtype: presentation
+    speakers: [1]
+  -
+    id: 004
+    title: "Как перестать бояться и полюбить техпиар?"
+    subtype: presentation
+    speakers: [2]
+  -
+    id: 005
+    title: "12 Factor App на примере наносервиса на Go"
+    subtype: presentation
+    speakers: [3]
+  -
+    id: 006
+    title: "Как придумать правдивую дизайн историю"
+    subtype: presentation
+    speakers: [4]
+  -
+    id: 007
+    title: "Войны разработчиков"
+    subtype: presentation
+    speakers: [5]
