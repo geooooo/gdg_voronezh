@@ -1,5 +1,5 @@
 <!-- Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
+<section id="top-section-hero" class="top-section-hero top-section image-section">
     {% include navigation.html %}
     <div class="content-wrapper">
     <div class="jumbotron">
@@ -20,3 +20,12 @@
     </div>
 </section>
 <!-- End Hero Section -->
+
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+        var heroImagesCount = 3;
+        var heroImageNumber = Math.trunc(Math.random() * heroImagesCount) + 1;
+        var topSectionHero = window.document.querySelector('#top-section-hero');
+        topSectionHero.style.backgroundImage = 'url("/img/sections-background/hero_main_' + heroImageNumber + '.jpg")';
+    });
+</script>
