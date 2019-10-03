@@ -1,6 +1,7 @@
 title: "Спикеры"
 speakers:
   - avatar: 'denis_nek.png'
+    id: 17
     name: 'Денис Неклюдов'
     company: 'Lyft (Сан-Франциско, США)'
     doc:
@@ -13,6 +14,7 @@ speakers:
         - мотивация
         - кремниевая долина
   - avatar: 'sergei_boishtan.png'
+    id: 10
     name: 'Сергей Боиштян'
     company: 'Avito (Москва)'
     doc:
@@ -24,8 +26,9 @@ speakers:
         - инфраструктура
         - devops
   - avatar: 'sergei_steblina.png'
+    id: 9
     name: 'Сергей Стеблина'
-    company: 'Студия Артемия Лебедева (Одесса)'
+    company: 'Студия Артемия Лебедева (Одесса, Украина)'
     doc:
       title: 'Транспортная и городская навигация'
       description: 'Сергей работал над навигацией в аэропортах «Пулково» и «Симферополь», метро Москвы и стадиона «Лужники». 
@@ -67,6 +70,7 @@ speakers:
         - анимации
         - мобильная разработка
   - avatar: 'nadezhda_kochetkova.png'
+    id: 13
     name: 'Надежда Кочеткова'
     company: 'Red Collar (Воронеж)'
     doc:
@@ -100,6 +104,7 @@ speakers:
         - конфликт-менеджмент
         - тимлидерство
   - avatar: 'gena_evstratov.png'
+    id: 8
     name: 'Геннадий Евстратов'
     company: 'Yandex.Taxi (Москва)'
     doc:
@@ -111,6 +116,7 @@ speakers:
         - кроссплатформа
         - мобильная разработка
   - avatar: 'daria_pivovarova.png'
+    id: 6
     name: 'Дарья Пивоварова'
     company: 'Туту.ру (Москва)'
     doc:
@@ -122,6 +128,7 @@ speakers:
         - стратегия
         - бизнес
   - avatar: 'anton_gubarev.png'
+    id: 11
     name: 'Антон Губарев'
     company: 'SkyEng (Тамбов)'
     doc:
@@ -133,6 +140,7 @@ speakers:
         - удалёнка
         - тимлидерство
   - avatar: 'ilia_frolikov.png'
+    id: 15
     name: 'Илья Фроликов'
     company: 'Туту.ру (Москва)'
     doc:
@@ -155,6 +163,7 @@ speakers:
         - графический дизайн
         - дизайн-история
   - avatar: 'ilia_dmitriev.png'
+    id: 7
     name: 'Илья Дмитриев'
     company: 'Chatham Financial (Краков, Польша)'
     doc:
@@ -173,6 +182,7 @@ speakers:
         - распределённая команда
         - тимлидерство
   - avatar: 'konstantin_nekrasov.png'
+    id: 12
     name: 'Константин Некрасов'
     company: 'DSR Corporation (Воронеж)'
     doc:
@@ -183,6 +193,7 @@ speakers:
         - функциональное программирование
         - Haskell
   - avatar: 'kate_strahova.png'
+    id: 16
     name: 'Екатерина Страхова'
     company: 'Mera (Нижний Новгород)'
     doc:
@@ -194,6 +205,7 @@ speakers:
         - ux
         - масштабирование проекта
   - avatar: 'alex_kartavenko.png'
+    id: 14
     name: 'Алексей Картавенко'
     company: 'Wrike (Санкт-Петербург)'
     doc:
@@ -222,6 +234,7 @@ speakers:
         - cloud
         - подходы разработки
   - avatar: 'anatolii_ivanov.png'
+    id: 18
     name: 'Анатолий Иванов'
     company: ' PropellerAds (Санкт-Петербург)'
     doc:

@@ -1,5 +1,5 @@
 block:
  - {count: "500", specialCharacter: "+", info: "участников", detail: "разработчики,<br>дизайнеры,<br>QA-инженеры,<br>аналитики,<br>студенты IT–специальностей"}
- - {count: "1", specialCharacter: "", info: "день", detail: "интересных докладов,<br>уникального опыта,<br>вдохновения и знаний"}
+ - {count: "2", specialCharacter: "", info: "дня", detail: "интересных докладов<br>и воркшопов"}
  - {count: "18", specialCharacter: "", info: "спикеров", detail: "ведущие эксперты индустрии"}
  - {count: "3", specialCharacter: "", info: "трека", detail: "Разработка,<br>Дизайн,<br>Вызовы современности"}
