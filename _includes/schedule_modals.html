@@ -1,0 +1,62 @@
+<div class="modals" class="modals">
+	{% for session in site.data.schedule.sessions %}
+		{% if session.has_modal %}
+		<div class="modal fade text-left people-modal" id="sessionDetail-{{ session.id }}" tabindex="-1" role="dialog" aria-labelledby="sessionDetailLabel-{{ session.id }}" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-body">
+						<div class="close">
+							<svg class="icon icon-cross" viewBox="0 0 32 32">
+								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
+							</svg>
+							<div class="close-mask" data-dismiss="modal"></div>
+						</div>
+
+						<h4>{{ session.title }}</h4>
+
+						{% if session.video %}
+						<div class="theme-video embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
+						</div>
+						{% endif %}
+
+						<p class="theme-description">{{ session.description }}</p>
+
+						{% if session.presentation %}
+						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">Посмотреть презентацию</a>
+						{% endif %}
+
+						<hr>
+
+						<div class="people-details">
+							{% for speaker in site.data.speakers.speakers %}
+								{% for session_speaker in session.speakers %}
+									{% if session_speaker == speaker.id %}
+									<div class="row" style="display:flex; align-items:center;">
+										<div class="col-md-2 col-sm-2">
+											<div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/speakers/' | append: speaker.avatar }})"></div>
+										</div>
+										<div class="col-md-10 col-sm-10 details">
+
+											<p class="name">
+												{{ speaker.name }}
+											</p>
+
+											<p class="position">
+												{{ speaker.company }}
+											</p>
+
+										</div>
+									</div>
+									{% endif %}
+								{% endfor %}
+							{% endfor %}
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}
+</div>

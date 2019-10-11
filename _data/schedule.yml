@@ -7,184 +7,213 @@ timeslots:
   - {
     startTime: "09:00",
     endTime: "10:00",
-    sessionIds: [001]
+    sessionIds: [1]
   }
   - {
     startTime: "10:00",
     endTime: "10:30",
-    sessionIds: [002]
+    sessionIds: [2]
   }
   - {
     startTime: "10:30",
     endTime: "11:30",
-    sessionIds: [003, 014, 021]
+    sessionIds: [3, 14, 21]
   }
   - {
     startTime: "11:30",
     endTime: "12:30",
-    sessionIds: [005, 006, 007]
+    sessionIds: [5, 6, 7]
   }
   - {
     startTime: "12:30",
     endTime: "13:30",
-    sessionIds: [008, 009, 010]
+    sessionIds: [8, 9, 10]
   }
   - {
     startTime: "13:30",
     endTime: "14:30",
-    sessionIds: [011, 012, 013]
+    sessionIds: [11, 12, 13]
   }
   - {
     startTime: "14:30",
     endTime: "15:30",
-    sessionIds: [015, 016, 017]
+    sessionIds: [15, 16, 17]
   }
   - {
     startTime: "15:30",
     endTime: "16:00",
-    sessionIds: [018]
+    sessionIds: [18]
   }
   - {
     startTime: "16:00",
     endTime: "17:00",
-    sessionIds: [019, 020, 004]
+    sessionIds: [19, 20, 4]
   }
   - {
     startTime: "17:00",
     endTime: "18:00",
-    sessionIds: [022, 023, 024]
+    sessionIds: [22, 23, 24]
   }
   - {
     startTime: "18:00",
     endTime: "18:40",
-    sessionIds: [025]
+    sessionIds: [25]
   }
   - {
     startTime: "18:40",
     endTime: "19:00",
-    sessionIds: [026]
+    sessionIds: [26]
   }
 sessions:
   -
-    id: 001
+    id: 1
     service: true
     title: "Регистрация"
+    has_modal: false
   -
-    id: 002
+    id: 2
     service: true
     title: "Открытие"
+    has_modal: false
   -
-    id: 003
+    id: 3
     title: "Animations in 2k19"
     subtype: presentation
     speakers: [1]
+    has_modal: true
+    description: "Описание, взять из ВК"
+    # TODO: пример видео и презентации
+    # video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+    # presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
   -
-    id: 004
+    id: 4
     title: "Как перестать бояться и полюбить техпиар?"
     subtype: presentation
     speakers: [2]
+    has_modal: true
   -
-    id: 005
+    id: 5
     title: "12 Factor App на примере наносервиса на Go"
     subtype: presentation
     speakers: [3]
+    has_modal: true
   -
-    id: 006
+    id: 6
     title: "Городская и транспортная навигация"
     subtype: presentation
     speakers: [9]
+    has_modal: true
   -
-    id: 014
+    id: 14
     title: "Как придумать правдивую дизайн историю"
     subtype: presentation
     speakers: [4]
+    has_modal: true
   -
-    id: 007
+    id: 7
     title: "Войны разработчиков"
     subtype: presentation
     speakers: [5]
+    has_modal: true
   -
-    id: 008
+    id: 8
     title: "Перерыв"
     service: true
+    has_modal: false
   -
-    id: 009
+    id: 9
     title: "Дизайн в стратегии бизнеса"
     subtype: presentation
     speakers: [6]
+    has_modal: true
   -
-    id: 010
+    id: 10
     title: "150 минут оверлапа: как работать в команде, разделенной океаном"
     subtype: presentation
     speakers: [7]
+    has_modal: true
   -
-    id: 011
+    id: 11
     title: "Почему мы выбрали Flutter для нашего следующего большого проекта"
     subtype: presentation
     speakers: [8]
+    has_modal: true
   -
-    id: 012
+    id: 12
     title: "Перерыв"
     service: true
+    has_modal: false
   -
-    id: 013
+    id: 13
     title: "Перерыв"
     service: true
+    has_modal: false
   -
-    id: 015
+    id: 15
     title: "Simple CI/CD"
     subtype: presentation
     speakers: [10]
+    has_modal: true
   -
-    id: 016
+    id: 16
     title: "Круглый стол 'Дизайн на стыке бизнеса и разработки'"
-    description: "Анна Сваровская, Дарья Пивоварова, Александ Смирнов, Илья Дмитриев, Илья Казначеев"
-    service: true
+    speakers: [1, 6, 7, 4, 3]
+    has_modal: false
   -
-    id: 017
+    id: 17
     title: "Особенности работы и процессов в распределённой команде"
     subtype: presentation
     speakers: [11]
+    has_modal: true
   -
-    id: 018
+    id: 18
     title: "Перерыв"
     service: true
+    has_modal: false
   -
-    id: 019
+    id: 19
     title: "Монада. Слово, которое нельзя называть"
     subtype: presentation
     speakers: [12]
+    has_modal: true
   -
-    id: 020
+    id: 20
     title: "Самообразование vs самосаботаж: что мешает вашему профессиональному росту"
     subtype: presentation
     speakers: [13]
+    has_modal: true
   -
-    id: 021
+    id: 21
     title: "Как организовать работу с общим техническим долгом в крупной компании"
     subtype: presentation
     speakers: [14]
+    has_modal: true
   -
-    id: 022
+    id: 22
     title: "Миграция с PHP на многопоточную разработку на Go"
     subtype: presentation
     speakers: [15]
+    has_modal: true
   -
-    id: 023
+    id: 23
     title: "Растим здоровый и полезный интерфейс"
     subtype: presentation
     speakers: [16]
+    has_modal: true
   -
-    id: 024
+    id: 24
     title: "Кремниевая долина - взгляд изнутри"
     subtype: presentation
     speakers: [17]
+    has_modal: true
   -
-    id: 025
+    id: 25
     title: "Тренды в управлении в IT"
     subtype: presentation
     speakers: [18]
+    has_modal: true
   -
-    id: 026
+    id: 26
     title: "Закрытие и розыгрыши призов"
     service: true
+    has_modal: false

@@ -7,15 +7,10 @@ blocks:
   title: "Контакты"
   links:
    - {link: "mailto:gdg.voronezh@gmail.com", text: "gdg.voronezh@gmail.com"}
-  # data:
-  #  - "+1 123 456 78 90"
-#   - "Loft Pineapple, 22 Pink Street, New York"
 socialLinks:
   - {link: "https://twitter.com/GdgVoronezh", icon: "twitter"}
   - {link: "https://fb.me/gdgvoronezh", icon: "facebook"}
   - {link: "https://vk.com/gdgvoronezh", icon: "vk"}
   - {link: "https://vk.com/gdgvoronezh", icon: "insta"}
-# TODO: links and telegram, vk
-# TODO: вписать остальных авторов и ссылки
 authors:
  - {name: "Юрий Корниенко", link: "https://t.me/yury_kornienko"}
